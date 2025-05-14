@@ -1,0 +1,10 @@
+.login__label {
+    width: 100%;
+    display: flex;
+}
+
+.login__label > label {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}

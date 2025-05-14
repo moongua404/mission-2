@@ -1,0 +1,9 @@
+.login__header {
+    width: 250px;
+    height: fit-content;
+}
+
+.login__header > img {
+    width: 100%;
+    height: auto;
+}

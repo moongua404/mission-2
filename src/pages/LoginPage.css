@@ -1,0 +1,35 @@
+main {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login--birthdateSelection {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+}
+
+.login--phoneNumberSelection {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+}
+
+.login--phoneNumberSelection > *:first-child {
+  flex: 8;
+}
+
+.login--phoneNumberSelection > *:last-child {
+  flex: 3;
+}
